@@ -29,7 +29,7 @@ Built with [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) for
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/whatsapp-forward-bot.git
+git clone https://github.com/sarbdeol/whatsapp_monitor.git
 cd whatsapp-forward-bot
 
 npm install
