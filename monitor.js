@@ -7,10 +7,14 @@ const { monitoredNumber, forwardToNumber } = require('./config');
 
 // === Auth + Session ===
 const client = new Client({
-    authStrategy: new LocalAuth({
-        clientId: "monitor-bot"
-    })
+    authStrategy: new LocalAuth({ clientId: "monitor-bot" }),
+    puppeteer: {
+        executablePath: '/usr/bin/chromium-browser',
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    }
 });
+
 
 // === QR Code Display ===
 client.on('qr', qr => {
