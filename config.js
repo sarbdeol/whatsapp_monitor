@@ -1,6 +1,6 @@
 // config.js
 
 module.exports = {
-    monitoredNumber: 'montornumber@c.us',   // Sender to monitor
-    forwardToNumber: 'forwardto@c.us'    // Recipient to forward to
+    monitoredNumber: '918728089525@c.us',   // Sender to monitor
+    forwardToNumber: '918727851142@c.us'    // Recipient to forward to
 };
